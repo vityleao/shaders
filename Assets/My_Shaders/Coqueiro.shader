@@ -7,7 +7,6 @@ Shader "Unlit/Coqueiro"
     }
     SubShader
     {
-        
         Tags { "RenderType"="Opaque" }
         LOD 100
 
@@ -18,10 +17,6 @@ Shader "Unlit/Coqueiro"
                 #pragma fragment frag
                 #include  "Packages/com.unity.render-pipelines.universal/ShaderLibrary/Core.hlsl"
                 #include  "Packages/com.unity.render-pipelines.universal/ShaderLibrary/Lighting.hlsl"
-
-                texture2D _MainTex;
-                SamplerState sampler_MainTex;
-                float4 _MainTex_ST;
 
                 struct Attributes
                 {
@@ -65,8 +60,6 @@ Shader "Unlit/Coqueiro"
                 float4 frag(Varyings Input) :SV_TARGET
                 {
                     float4 color = Input.color;
-                    color *= _MainTex.Sample(sampler_MainTex, Input.uvVAR);
-                    return color;
                    
                     return color;
                 }
