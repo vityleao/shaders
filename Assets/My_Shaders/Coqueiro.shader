@@ -60,7 +60,7 @@ Shader "Unlit/Coqueiro"
                 float4 frag(Varyings Input) :SV_TARGET
                 {
                     float4 color = Input.color;
-                   
+                    
                     return color;
                 }
 

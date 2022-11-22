@@ -8,7 +8,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Placa
-  m_Shader: {fileID: 4800000, guid: 5bc9f6bf50b23b141a8e03b4574cb878, type: 3}
+  m_Shader: {fileID: 4800000, guid: b916d43f335ed124bb6938a0b47e5a98, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
@@ -94,7 +94,7 @@ Material:
     - _GlossMapScale: 0
     - _Glossiness: 0
     - _GlossyReflections: 0
-    - _LeafSelect: 2.41
+    - _LeafSelect: 5
     - _Metallic: 0
     - _OcclusionStrength: 1
     - _Parallax: 0.005
@@ -109,6 +109,7 @@ Material:
     - _WindSelect: 0.699
     - _WorkflowMode: 1
     - _ZWrite: 1
+    - _tempo: 5
     m_Colors:
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
